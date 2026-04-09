@@ -5,17 +5,6 @@ Participant demographics are stored in an `.xlsx` file. Each participant is assi
 
 FOLDER: “ANOVA Results” contains `.csv` files with processed data (each row = participant, each column = condition), as well as JASP files where statistical tests were conducted [HR = High reward, LR = Low Reward, HL = High Loss, LL = Low Loss, HC = Contingent, LC = Non-Contingent].
 
-FOLDER: “TrialOrders” contains `.csv` files specifying the pseudorandomized order of condition presentation in the experiment.
-
-   *TrialOrder: order of presentation for each trial
-   *Valence: 1/2/3 = pos/neu/neg
-   *TargetLetter: 1/2 = X/N
-   *TargetPosition: 1–6
-   *IdentityOrder: image position from the specified folder
-   *ISI: 2–6 s
-   *ITI: 2–6 s
-   *FinalOrder_Main_ab.csv and FinalOrder_Main_ba.csv: identical trial orders across conditions, except the order of image presentation is reversed.
-
 FOLDER: “logFiles” contains the raw data collected during the experiment, including all variables.
 
 FOLDER: “rollingWindow” contains `.m` files summarizing successful trials (defined as points won or loss avoided) from experiment 1 and experiment 2, across all reward-contingency conditions in each run for each participant.
